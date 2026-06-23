@@ -48,29 +48,6 @@ public class Caracter_Controller : MonoBehaviour
         }
 
         isSprinting = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
-
-        /*if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
-        {
-            isSprinting = true;
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
-        {
-            isSprinting = false;
-        }*/
-
-        /*if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
-        {
-            sprint();
-        }
-
-        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
-        {
-            
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
-        {
-            
-        }*/
     }
 
     void CheckGround()
@@ -112,16 +89,6 @@ public class Caracter_Controller : MonoBehaviour
         rb.linearVelocity = linearvelocity;
     }
 
-    /*void sprint()
-    {
-        Vector3 linearvelocity = rb.linearVelocity;
-
-        linearvelocity.x = Horizontal * SprintSpeed;
-        linearvelocity.z = Vertical * SprintSpeed;
-
-        rb.linearVelocity = linearvelocity;
-    }*/
-
     private void FixedUpdate()
     {
         Move();
@@ -139,12 +106,4 @@ public class Caracter_Controller : MonoBehaviour
 
         isGrounded = false;
     }
-
-    /*private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = true;
-        }
-    }*/
 }
