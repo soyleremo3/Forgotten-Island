@@ -4,10 +4,17 @@ using UnityEngine;
 public class Caracter_Controller : MonoBehaviour
 {
     [Header("Speeds")]
+
     [Tooltip("Chracter Move Speed")] // It appears when you hover over it with the mouse.
     public float speed = 50f;
+
     [Tooltip("Chracter Jump Force")]
     public float JumpForce = 100f;
+
+    [Tooltip("It is Sprint Speed")]
+    public float SprintSpeed = 20f;
+
+    private bool isSprinting;
 
     [Header("Ground Check")]
     [SerializeField] private Transform GroundCheck;
@@ -39,6 +46,31 @@ public class Caracter_Controller : MonoBehaviour
 
             if (isGrounded) Jump();
         }
+
+        isSprinting = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
+
+        /*if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        {
+            isSprinting = true;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
+        {
+            isSprinting = false;
+        }*/
+
+        /*if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        {
+            sprint();
+        }
+
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        {
+            
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
+        {
+            
+        }*/
     }
 
     void CheckGround()
@@ -62,11 +94,33 @@ public class Caracter_Controller : MonoBehaviour
     {
         Vector3 linearvelocity = rb.linearVelocity;
 
-        linearvelocity.x = Horizontal * speed;
-        linearvelocity.z = Vertical * speed;
+        if (!isSprinting)
+        {
+            
+
+            linearvelocity.x = Horizontal * speed;
+            linearvelocity.z = Vertical * speed;
+
+            
+        }
+        else if (isSprinting)
+        {
+            linearvelocity.x = Horizontal * SprintSpeed;
+            linearvelocity.z = Vertical * SprintSpeed;
+        }
 
         rb.linearVelocity = linearvelocity;
     }
+
+    /*void sprint()
+    {
+        Vector3 linearvelocity = rb.linearVelocity;
+
+        linearvelocity.x = Horizontal * SprintSpeed;
+        linearvelocity.z = Vertical * SprintSpeed;
+
+        rb.linearVelocity = linearvelocity;
+    }*/
 
     private void FixedUpdate()
     {

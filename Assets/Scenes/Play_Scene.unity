@@ -130,8 +130,8 @@ GameObject:
   - component: {fileID: 181589955}
   - component: {fileID: 181589954}
   - component: {fileID: 181589953}
-  - component: {fileID: 181589952}
   - component: {fileID: 181589957}
+  - component: {fileID: 181589952}
   - component: {fileID: 181589956}
   m_Layer: 0
   m_Name: Player
@@ -277,6 +277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Caracter_Controller
   speed: 10
   JumpForce: 10
+  SprintSpeed: 20
   GroundCheck: {fileID: 1161984871}
   radius: 1.5
   GroundLayer:
@@ -368,8 +369,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.24, z: -4.06}
+  m_LocalRotation: {x: 0.16839342, y: -0.00058885565, z: 0.00010238365, w: 0.98571974}
+  m_LocalPosition: {x: 0.3, y: 4.79, z: -9.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
