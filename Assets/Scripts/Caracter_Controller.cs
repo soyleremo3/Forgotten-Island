@@ -1,6 +1,6 @@
 using UnityEngine;
 using Unity.Cinemachine;
-
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Rigidbody))] // The Attribute Script provides extra information and, even if it's not already there, it automatically adds a Rigidbody.
 public class Caracter_Controller : MonoBehaviour
@@ -14,10 +14,12 @@ public class Caracter_Controller : MonoBehaviour
     public float speed = 10f;
 
     [Tooltip("Chracter Jump Force")]
-    public float JumpForce = 100f;
+    public float JumpForce = 20f;
 
     [Tooltip("It is Sprint Speed")]
     public float SprintSpeed = 18f;
+
+    public float rotationSpeed = 10f;
 
     private bool isSprinting;
 
@@ -26,13 +28,14 @@ public class Caracter_Controller : MonoBehaviour
     [SerializeField] private float radius = 1f;
     [SerializeField] private LayerMask GroundLayer;
 
-    
-
     private bool isGrounded;
     private Rigidbody rb;
 
     private float Horizontal;
     private float Vertical;
+
+    [Tooltip("Timer for jump")]
+    private float JumpTimer; // Timer for jump
 
     private void Start()
     {
@@ -43,10 +46,18 @@ public class Caracter_Controller : MonoBehaviour
 
     private void Update()
     {
-        Horizontal = Input.GetAxisRaw("Horizontal"); // Daha akıcı tepki vermesi için eklendi test et
+        Horizontal = Input.GetAxisRaw("Horizontal"); // I used Raw for a smoother experience.
         Vertical = Input.GetAxisRaw("Vertical");
 
-        CheckGround();
+        if (JumpTimer > 0)
+        {
+            JumpTimer -= Time.deltaTime;
+            isGrounded = false;
+        }
+        else
+        {
+            CheckGround();
+        }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -71,9 +82,11 @@ public class Caracter_Controller : MonoBehaviour
     {
         if (GroundCheck == null ) return;
 
+        Gizmos.color = Color.green;
+
         Gizmos.DrawWireSphere(
             GroundCheck.position,
-            radius);
+            radius); 
     }
 
     void Move()
@@ -93,16 +106,27 @@ public class Caracter_Controller : MonoBehaviour
 
         Vector3 linearvelocity = rb.linearVelocity;
 
-        if (!isSprinting)
+        float currentSpeed = isSprinting ? SprintSpeed : speed;
+
+        if (moveDirection.magnitude > 1f) moveDirection.Normalize();
+
+        Vector3 targetVelocity = moveDirection * currentSpeed;
+
+        if (moveDirection != Vector3.zero)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.fixedDeltaTime);
+        }
+        /*if (!isSprinting)
         {
             linearvelocity = new Vector3(normalSpeedVelocity.x, rb.linearVelocity.y, normalSpeedVelocity.z);
         }
         else if (isSprinting)
         {
             linearvelocity = new Vector3(sprintSpeedVelocity.x, rb.linearVelocity.y, sprintSpeedVelocity.z);
-        }
+        }*/
 
-        rb.linearVelocity = linearvelocity;
+        rb.linearVelocity = new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.z);
     }
 
     private void FixedUpdate()
@@ -121,5 +145,7 @@ public class Caracter_Controller : MonoBehaviour
         rb.linearVelocity = linearvelocity;
 
         isGrounded = false;
+
+        JumpTimer = 0.15f;
     }
 }
