@@ -33,9 +33,6 @@ public class Caracter_Controller : MonoBehaviour
     private float horizontal;
     private float vertical;
 
-    /*[Tooltip("Timer for jump")]
-    private float JumpTimer; // Timer for jump*/
-
     private bool jumpRequested = false;
     private bool isJumping = false;
 
@@ -60,66 +57,57 @@ public class Caracter_Controller : MonoBehaviour
 
     private void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal"); // I used Raw for a smoother experience.
-        vertical = Input.GetAxisRaw("Vertical");
+        horizontal = Input.GetAxis("Horizontal");
+        vertical = Input.GetAxis("Vertical");
 
-        /*if (JumpTimer > 0)
-        {
-            JumpTimer -= Time.deltaTime;
-            isGrounded = false;
-        }
-        else
-        {
-            CheckGround();
-        }*/
         if (!isJumping)
         {
             CheckGround();
         }
-
-        if (Input.GetKeyDown(KeyCode.Space))
+        else if (rb.linearVelocity.y < 0f)
         {
-            Debug.Log("Space Pressed");
-            Debug.Log("isGrounded = " + isGrounded);
-
-            if (isGrounded) Jump();
+            CheckGround();
+            if (isGrounded)
+            {
+                isJumping = false;
+            }
         }
 
         isSprinting = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
 
-        if (Input.GetKeyDown(KeyCode.Space)  && isGrounded) jumpRequested = true;
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded) jumpRequested = true;
     }
 
     void CheckGround()
     {
         isGrounded = Physics.CheckSphere(
             groundCheck.position, // Is there a collider inside a sphere of a specific radius?
-            radius, 
+            radius,
             GroundLayer);
     }
 
     void OnDrawGizmosSelected()
     {
-        if (groundCheck == null ) return;
+        if (groundCheck == null) return;
 
-        Gizmos.color = Color.green;
+        Gizmos.color = Color.blue;
 
         Gizmos.DrawWireSphere(
             groundCheck.position,
-            radius); 
+            radius);
     }
 
     void Move()
     {
-        Vector3 camRight = cinCamera.transform.right;
-        Vector3 camForward = cinCamera.transform.forward;
+        Vector3 camRight = Camera.main.transform.right;
+        Vector3 camForward = Camera.main.transform.forward;
 
         camRight.y = 0f;
         camForward.y = 0f;
         camRight.Normalize();
         camForward.Normalize();
 
-        Vector3 moveDirection = (horizontal * camRight) + (vertical * camForward);
+        Vector3 moveDirection = (vertical * camForward) + (horizontal * camRight);
 
         float currentSpeed = isSprinting ? SprintSpeed : speed;
 
@@ -136,6 +124,19 @@ public class Caracter_Controller : MonoBehaviour
         rb.linearVelocity = new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.z);
     }
 
+    void Jump()
+    {
+        isJumping = true;
+        Debug.Log("Jump Called Via FixedUpdate");
+
+        Vector3 linearvelocity = rb.linearVelocity;
+        linearvelocity.y = jumpForce;
+        rb.linearVelocity = linearvelocity;
+
+        isGrounded = false;
+        jumpRequested = false;
+    }
+
     private void FixedUpdate()
     {
         Move();
@@ -143,23 +144,6 @@ public class Caracter_Controller : MonoBehaviour
         if (jumpRequested)
         {
             Jump();
-            jumpRequested = false;
         }
-    }
-
-    void Jump()
-    {
-        isJumping = true;
-        Debug.Log("Jump Called");
-
-        Vector3 linearvelocity = rb.linearVelocity;
-
-        linearvelocity.y = jumpForce;
-
-        rb.linearVelocity = linearvelocity;
-
-        isGrounded = false;
-
-        //JumpTimer = 0.15f;
     }
 }
