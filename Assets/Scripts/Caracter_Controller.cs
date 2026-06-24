@@ -1,6 +1,5 @@
 using UnityEngine;
 using Unity.Cinemachine;
-using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Rigidbody))] // The Attribute Script provides extra information and, even if it's not already there, it automatically adds a Rigidbody.
 public class Caracter_Controller : MonoBehaviour
@@ -14,7 +13,7 @@ public class Caracter_Controller : MonoBehaviour
     public float speed = 10f;
 
     [Tooltip("Chracter Jump Force")]
-    public float JumpForce = 20f;
+    public float jumpForce = 20f;
 
     [Tooltip("It is Sprint Speed")]
     public float SprintSpeed = 18f;
@@ -24,37 +23,56 @@ public class Caracter_Controller : MonoBehaviour
     private bool isSprinting;
 
     [Header("Ground Check")]
-    [SerializeField] private Transform GroundCheck;
+    [SerializeField] private Transform groundCheck;
     [SerializeField] private float radius = 1f;
     [SerializeField] private LayerMask GroundLayer;
 
     private bool isGrounded;
     private Rigidbody rb;
 
-    private float Horizontal;
-    private float Vertical;
+    private float horizontal;
+    private float vertical;
 
-    [Tooltip("Timer for jump")]
-    private float JumpTimer; // Timer for jump
+    /*[Tooltip("Timer for jump")]
+    private float JumpTimer; // Timer for jump*/
+
+    private bool jumpRequested = false;
+    private bool isJumping = false;
+
+    [Header("Mouse Sensitivity")]
+    public float mouseSensitivity = 300f;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
 
         rb.freezeRotation = true;
+
+        var inputcontroller = cinCamera.GetComponent<CinemachineInputAxisController>();
+        if (inputcontroller != null)
+        {
+            foreach (var axis in inputcontroller.Controllers)
+            {
+                axis.Input.Gain = mouseSensitivity / 100f;
+            }
+        }
     }
 
     private void Update()
     {
-        Horizontal = Input.GetAxisRaw("Horizontal"); // I used Raw for a smoother experience.
-        Vertical = Input.GetAxisRaw("Vertical");
+        horizontal = Input.GetAxisRaw("Horizontal"); // I used Raw for a smoother experience.
+        vertical = Input.GetAxisRaw("Vertical");
 
-        if (JumpTimer > 0)
+        /*if (JumpTimer > 0)
         {
             JumpTimer -= Time.deltaTime;
             isGrounded = false;
         }
         else
+        {
+            CheckGround();
+        }*/
+        if (!isJumping)
         {
             CheckGround();
         }
@@ -68,24 +86,26 @@ public class Caracter_Controller : MonoBehaviour
         }
 
         isSprinting = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
+
+        if (Input.GetKeyDown(KeyCode.Space)  && isGrounded) jumpRequested = true;
     }
 
     void CheckGround()
     {
         isGrounded = Physics.CheckSphere(
-            GroundCheck.position, // Is there a collider inside a sphere of a specific radius?
+            groundCheck.position, // Is there a collider inside a sphere of a specific radius?
             radius, 
             GroundLayer);
     }
 
     void OnDrawGizmosSelected()
     {
-        if (GroundCheck == null ) return;
+        if (groundCheck == null ) return;
 
         Gizmos.color = Color.green;
 
         Gizmos.DrawWireSphere(
-            GroundCheck.position,
+            groundCheck.position,
             radius); 
     }
 
@@ -99,12 +119,7 @@ public class Caracter_Controller : MonoBehaviour
         camRight.Normalize();
         camForward.Normalize();
 
-        Vector3 moveDirection = (Horizontal * camRight) + (Vertical * camForward);
-
-        Vector3 normalSpeedVelocity = moveDirection * speed;
-        Vector3 sprintSpeedVelocity = moveDirection * SprintSpeed;
-
-        Vector3 linearvelocity = rb.linearVelocity;
+        Vector3 moveDirection = (horizontal * camRight) + (vertical * camForward);
 
         float currentSpeed = isSprinting ? SprintSpeed : speed;
 
@@ -117,14 +132,6 @@ public class Caracter_Controller : MonoBehaviour
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.fixedDeltaTime);
         }
-        /*if (!isSprinting)
-        {
-            linearvelocity = new Vector3(normalSpeedVelocity.x, rb.linearVelocity.y, normalSpeedVelocity.z);
-        }
-        else if (isSprinting)
-        {
-            linearvelocity = new Vector3(sprintSpeedVelocity.x, rb.linearVelocity.y, sprintSpeedVelocity.z);
-        }*/
 
         rb.linearVelocity = new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.z);
     }
@@ -132,20 +139,27 @@ public class Caracter_Controller : MonoBehaviour
     private void FixedUpdate()
     {
         Move();
+
+        if (jumpRequested)
+        {
+            Jump();
+            jumpRequested = false;
+        }
     }
 
     void Jump()
     {
+        isJumping = true;
         Debug.Log("Jump Called");
 
         Vector3 linearvelocity = rb.linearVelocity;
 
-        linearvelocity.y = JumpForce;
+        linearvelocity.y = jumpForce;
 
         rb.linearVelocity = linearvelocity;
 
         isGrounded = false;
 
-        JumpTimer = 0.15f;
+        //JumpTimer = 0.15f;
     }
 }
