@@ -2,7 +2,7 @@ using UnityEngine;
 using Unity.Cinemachine;
 
 [RequireComponent(typeof(Rigidbody))] // The Attribute Script provides extra information and, even if it's not already there, it automatically adds a Rigidbody.
-public class Caracter_Controller : MonoBehaviour
+public class Player_Controller : MonoBehaviour
 {
     [Header("Camera")]
     public CinemachineCamera cinCamera;
@@ -20,21 +20,21 @@ public class Caracter_Controller : MonoBehaviour
 
     public float rotationSpeed = 10f;
 
-    private bool isSprinting;
+    [HideInInspector] public bool isSprinting;
 
     [Header("Ground Check")]
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float radius = 1f;
     [SerializeField] private LayerMask GroundLayer;
 
-    private bool isGrounded;
+    [HideInInspector] public bool isGrounded;
     private Rigidbody rb;
 
-    private float horizontal;
-    private float vertical;
+    [HideInInspector] public float horizontal;
+    [HideInInspector] public float vertical;
 
     private bool jumpRequested = false;
-    private bool isJumping = false;
+    [HideInInspector] public bool isJumping = false;
 
     [Header("Mouse Sensitivity")]
     public float mouseSensitivity = 300f;
