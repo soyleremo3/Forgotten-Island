@@ -1,11 +1,11 @@
-using UnityEngine;
 using Unity.Cinemachine;
+using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))] // The Attribute Script provides extra information and, even if it's not already there, it automatically adds a Rigidbody.
-public class Player_Controller : MonoBehaviour
+public class Player_Static_Controller : MonoBehaviour
 {
-    [Header("Camera")]
-    public CinemachineCamera cinCamera;
+    //[Header("Camera")]
+    //public CinemachineCamera cinCamera;
 
     [Header("Speeds")]
 
@@ -18,7 +18,7 @@ public class Player_Controller : MonoBehaviour
     [Tooltip("It is Sprint Speed")]
     public float SprintSpeed = 18f;
 
-    public float rotationSpeed = 10f;
+    //public float rotationSpeed = 10f;
 
     [HideInInspector] public bool isSprinting;
 
@@ -36,8 +36,8 @@ public class Player_Controller : MonoBehaviour
     private bool jumpRequested = false;
     [HideInInspector] public bool isJumping = false;
 
-    [Header("Mouse Sensitivity")]
-    public float mouseSensitivity = 300f;
+    //[Header("Mouse Sensitivity")]
+    //public float mouseSensitivity = 300f;
 
     private void Start()
     {
@@ -45,14 +45,14 @@ public class Player_Controller : MonoBehaviour
 
         rb.freezeRotation = true;
 
-        var inputcontroller = cinCamera.GetComponent<CinemachineInputAxisController>();
+        /*var inputcontroller = cinCamera.GetComponent<CinemachineInputAxisController>();
         if (inputcontroller != null)
         {
             foreach (var axis in inputcontroller.Controllers)
             {
                 axis.Input.Gain = mouseSensitivity / 100f;
             }
-        }
+        }*/
     }
 
     private void Update()
@@ -99,15 +99,15 @@ public class Player_Controller : MonoBehaviour
 
     void Move()
     {
-        Vector3 camRight = Camera.main.transform.right;
+        /*Vector3 camRight = Camera.main.transform.right;
         Vector3 camForward = Camera.main.transform.forward;
 
         camRight.y = 0f;
         camForward.y = 0f;
         camRight.Normalize();
-        camForward.Normalize();
+        camForward.Normalize();*/
 
-        Vector3 moveDirection = (vertical * camForward) + (horizontal * camRight);
+        Vector3 moveDirection = new Vector3(horizontal, 0f, vertical);
 
         float currentSpeed = isSprinting ? SprintSpeed : speed;
 
@@ -115,11 +115,11 @@ public class Player_Controller : MonoBehaviour
 
         Vector3 targetVelocity = moveDirection * currentSpeed;
 
-        if (moveDirection != Vector3.zero)
+        /*if (moveDirection != Vector3.zero)
         {
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.fixedDeltaTime);
-        }
+        }*/
 
         rb.linearVelocity = new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.z);
     }
