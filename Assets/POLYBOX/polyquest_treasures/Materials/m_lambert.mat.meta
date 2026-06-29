@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a046533be7b7b754fb3e4ecb89a1d1ea
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311375
+  packageName: Polyquest Treasures
+  packageVersion: 2.0
+  assetPath: Assets/POLYBOX/polyquest_treasures/Materials/m_lambert.mat
+  uploadId: 919280

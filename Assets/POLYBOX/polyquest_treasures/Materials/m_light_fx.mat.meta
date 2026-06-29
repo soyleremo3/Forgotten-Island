@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f63f9baf31acb744ba5fed0ccc6b9558
+timeCreated: 1475620018
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311375
+  packageName: Polyquest Treasures
+  packageVersion: 2.0
+  assetPath: Assets/POLYBOX/polyquest_treasures/Materials/m_light_fx.mat
+  uploadId: 919280
