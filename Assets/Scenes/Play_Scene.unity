@@ -4435,7 +4435,7 @@ GameObject:
   - component: {fileID: 1137075809236992815}
   - component: {fileID: 6495757847996874579}
   - component: {fileID: 7456466080767367761}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_73
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4451,7 +4451,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5895048003618526562}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4485,7 +4485,7 @@ GameObject:
   - component: {fileID: 2395703113935196457}
   - component: {fileID: 7954809689316589367}
   - component: {fileID: 8234812896486777274}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_83
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4509,7 +4509,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8834216801686489229}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4574,7 +4574,7 @@ GameObject:
   - component: {fileID: 953472219050621916}
   - component: {fileID: 5969528023224846117}
   - component: {fileID: 5621993323112124373}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_157
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4745,7 +4745,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6317571505984575092}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandMiddle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4949,7 +4949,7 @@ GameObject:
   - component: {fileID: 3990416820810117498}
   - component: {fileID: 3074461244567643311}
   - component: {fileID: 596049043416642261}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_98
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5053,7 +5053,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5211242936404131606}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5354,7 +5354,7 @@ GameObject:
   - component: {fileID: 6624323391220863117}
   - component: {fileID: 325032760244048787}
   - component: {fileID: 3022894690160449936}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_147
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5448,7 +5448,7 @@ GameObject:
   - component: {fileID: 7028564026889002687}
   - component: {fileID: 3116678290037627207}
   - component: {fileID: 7544137992533074918}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5466,7 +5466,7 @@ GameObject:
   - component: {fileID: 8221663169869158113}
   - component: {fileID: 3709203348200914480}
   - component: {fileID: 8154584867117379960}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_121
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5484,7 +5484,7 @@ GameObject:
   - component: {fileID: 1644854763705693087}
   - component: {fileID: 5518244929842058809}
   - component: {fileID: 748056416101576086}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5631,7 +5631,7 @@ GameObject:
   - component: {fileID: 5535149926317279051}
   - component: {fileID: 6653785877480021348}
   - component: {fileID: 615202912436099782}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_75
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5812,7 +5812,7 @@ GameObject:
   - component: {fileID: 4768751743699896748}
   - component: {fileID: 628707594997190522}
   - component: {fileID: 340153580226077726}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_136
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5951,7 +5951,7 @@ GameObject:
   - component: {fileID: 4506004573270705542}
   - component: {fileID: 5378773203988541516}
   - component: {fileID: 2740413888996289357}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_chest_C_handles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5967,7 +5967,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7481349975734911437}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandMiddle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6167,7 +6167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3880059787761614614}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6305,7 +6305,7 @@ GameObject:
   - component: {fileID: 6476379317714374396}
   - component: {fileID: 1694957116653737974}
   - component: {fileID: 2377128305093260063}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_97
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6321,7 +6321,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1387977123054572976}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandRing4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6450,7 +6450,7 @@ GameObject:
   - component: {fileID: 1750337019580794731}
   - component: {fileID: 2994924538933947210}
   - component: {fileID: 4366906017122133506}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_109
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6572,7 +6572,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6667664477599083978}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6619,7 +6619,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7171224510480888182}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6637,7 +6637,7 @@ GameObject:
   - component: {fileID: 4972053942307826252}
   - component: {fileID: 2096143761933551706}
   - component: {fileID: 1757631304614117213}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_107
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6751,7 +6751,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7092479496225922484}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6800,7 +6800,7 @@ GameObject:
   - component: {fileID: 1056708779744905182}
   - component: {fileID: 1920681752263378474}
   - component: {fileID: 4440628870873791445}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_146
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6846,7 +6846,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2788041139564246173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6934,7 +6934,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5139435671593988644}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6960,7 +6960,7 @@ GameObject:
   - component: {fileID: 4170265274793201097}
   - component: {fileID: 3634658179423746369}
   - component: {fileID: 1079160410239362496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6994,7 +6994,7 @@ GameObject:
   - component: {fileID: 1119030886972921869}
   - component: {fileID: 7223638651555579950}
   - component: {fileID: 5178280626608051210}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_134
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7092,7 +7092,7 @@ GameObject:
   - component: {fileID: 6394208503286524390}
   - component: {fileID: 5695388334141945777}
   - component: {fileID: 591693060158167169}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7147,7 +7147,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 969445046652092696}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandRing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7186,7 +7186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 235636692445455318}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandRing2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7204,7 +7204,7 @@ GameObject:
   - component: {fileID: 6632995160849764952}
   - component: {fileID: 4000643991791206239}
   - component: {fileID: 827938524231028068}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_151
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7269,7 +7269,7 @@ GameObject:
   - component: {fileID: 5287888903470047794}
   - component: {fileID: 2308156399710866864}
   - component: {fileID: 2345452351003925262}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_96
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7365,7 +7365,7 @@ GameObject:
   - component: {fileID: 5787096596029919427}
   - component: {fileID: 5927837001864257794}
   - component: {fileID: 95445789971155814}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_125
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7383,7 +7383,7 @@ GameObject:
   - component: {fileID: 6984608491028089110}
   - component: {fileID: 3910915394490867770}
   - component: {fileID: 4765608001420214391}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_133
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7447,7 +7447,7 @@ GameObject:
   - component: {fileID: 6035440613308497503}
   - component: {fileID: 4493677397836127730}
   - component: {fileID: 8829106238512176435}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_chest_C2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7465,7 +7465,7 @@ GameObject:
   - component: {fileID: 1598756720713315726}
   - component: {fileID: 3695975436814900214}
   - component: {fileID: 2195149557095791862}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_95
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7627,7 +7627,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2575058764617533245}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7645,7 +7645,7 @@ GameObject:
   - component: {fileID: 8080677228981309131}
   - component: {fileID: 134202137305950406}
   - component: {fileID: 2019160249173491022}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_chest_A_glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7740,7 +7740,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2865603082641499493}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandRing3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7766,7 +7766,7 @@ GameObject:
   - component: {fileID: 5964885219533387859}
   - component: {fileID: 4596527951121122818}
   - component: {fileID: 2276127017910598289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7910,7 +7910,7 @@ GameObject:
   - component: {fileID: 2748680223417120655}
   - component: {fileID: 6843702484169001478}
   - component: {fileID: 7265612780032173472}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_82
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7928,7 +7928,7 @@ GameObject:
   - component: {fileID: 2522788236963196553}
   - component: {fileID: 6827803094747522417}
   - component: {fileID: 2905304777171526569}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7962,7 +7962,7 @@ GameObject:
   - component: {fileID: 4386677252378944466}
   - component: {fileID: 1172349324993346148}
   - component: {fileID: 1962295225850126399}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7978,7 +7978,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5536397935927737904}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8237,7 +8237,7 @@ GameObject:
   - component: {fileID: 5292215722795433690}
   - component: {fileID: 6821579761863705546}
   - component: {fileID: 3671282042977999356}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_62
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8255,7 +8255,7 @@ GameObject:
   - component: {fileID: 6844468999364591544}
   - component: {fileID: 3602863241942785560}
   - component: {fileID: 8162866691792931468}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_61
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8410,7 +8410,7 @@ GameObject:
   - component: {fileID: 4490683162866331821}
   - component: {fileID: 3512769053930327643}
   - component: {fileID: 8342399907427665279}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8493,7 +8493,7 @@ GameObject:
   - component: {fileID: 7389728769666285411}
   - component: {fileID: 5901651807182276937}
   - component: {fileID: 3197991039820601573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_130
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8606,7 +8606,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9153105473496987848}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.782154, y: 0.000000029802315, z: -0.00000026822084, w: 0.62308514}
+  m_LocalRotation: {x: -0.7660445, y: 0, z: 0, w: 0.64278764}
   m_LocalPosition: {x: 0.000118713375, y: 0.5734241, z: -0.25223443}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8615,7 +8615,7 @@ Transform:
   - {fileID: 4785835782996438751}
   - {fileID: 267265023614641481}
   m_Father: {fileID: 8427795068496146983}
-  m_LocalEulerAnglesHint: {x: -102.916, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -100, y: 0, z: 0}
 --- !u!4 &1967156330478447861
 Transform:
   m_ObjectHideFlags: 0
@@ -8657,7 +8657,7 @@ GameObject:
   - component: {fileID: 3020249574542073975}
   - component: {fileID: 579150402955402286}
   - component: {fileID: 5145652314926084403}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_63
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9050,7 +9050,7 @@ GameObject:
   - component: {fileID: 3579265575138279966}
   - component: {fileID: 261837625278264608}
   - component: {fileID: 8847780306851248674}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_169
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9117,7 +9117,7 @@ GameObject:
   - component: {fileID: 6043677316514245603}
   - component: {fileID: 5416964652538928235}
   - component: {fileID: 1269545867673804768}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_93
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9133,7 +9133,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8520557618584802991}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9151,7 +9151,7 @@ GameObject:
   - component: {fileID: 3409209916287787194}
   - component: {fileID: 428909899672860481}
   - component: {fileID: 222955307125802869}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_90
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9281,7 +9281,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5605771385411692480}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9297,7 +9297,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3642610241693192804}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9837,7 +9837,7 @@ GameObject:
   - component: {fileID: 4154173337036854571}
   - component: {fileID: 5441389983845438263}
   - component: {fileID: 3102134050000361439}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_chest_C_top_B_handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9854,7 +9854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3065196608931549120}
   - component: {fileID: 407079047136915685}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_chest_coins_duned_high
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10001,7 +10001,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6979366615964332677}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10027,7 +10027,7 @@ GameObject:
   - component: {fileID: 3088640585296859482}
   - component: {fileID: 6732591014014002694}
   - component: {fileID: 1780444465295375347}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10061,7 +10061,7 @@ GameObject:
   - component: {fileID: 1652811242931008757}
   - component: {fileID: 8112294613024110269}
   - component: {fileID: 8813522732326205866}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_101
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10094,7 +10094,7 @@ GameObject:
   - component: {fileID: 779220393510975163}
   - component: {fileID: 9138136436718857152}
   - component: {fileID: 7267477536417018098}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_74
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10248,7 +10248,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2908020225025133389}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10297,7 +10297,7 @@ GameObject:
   - component: {fileID: 3888657981843407486}
   - component: {fileID: 1923979221280727989}
   - component: {fileID: 3262426704417416002}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_85
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10330,7 +10330,7 @@ GameObject:
   - component: {fileID: 1523638106386091655}
   - component: {fileID: 183657649297568179}
   - component: {fileID: 8398218227243790548}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_52
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10388,7 +10388,7 @@ GameObject:
   - component: {fileID: 3320103836198186016}
   - component: {fileID: 3025481423246524766}
   - component: {fileID: 7029760941013856097}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_170
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10486,7 +10486,7 @@ GameObject:
   - component: {fileID: 2362573223328988959}
   - component: {fileID: 6314111266796348072}
   - component: {fileID: 3508985002319855520}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_150
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10617,7 +10617,7 @@ GameObject:
   - component: {fileID: 277978852988255660}
   - component: {fileID: 6701066300723066345}
   - component: {fileID: 2713536951937453074}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_124
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10635,7 +10635,7 @@ GameObject:
   - component: {fileID: 3199082518059120474}
   - component: {fileID: 9010341718901939860}
   - component: {fileID: 5238920471294243059}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10699,7 +10699,7 @@ GameObject:
   - component: {fileID: 7902439237416923531}
   - component: {fileID: 7830470801383477832}
   - component: {fileID: 7814103380366068572}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10723,7 +10723,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5382563465833408545}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandMiddle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10788,7 +10788,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2607620451967309213}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10846,7 +10846,7 @@ GameObject:
   - component: {fileID: 234686407894649715}
   - component: {fileID: 3708996025143908344}
   - component: {fileID: 6901293274580843926}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10864,7 +10864,7 @@ GameObject:
   - component: {fileID: 9152913889048925752}
   - component: {fileID: 5397825175999870817}
   - component: {fileID: 2167281579435935182}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_132
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10882,7 +10882,7 @@ GameObject:
   - component: {fileID: 1967156330478447861}
   - component: {fileID: 7257922754267875159}
   - component: {fileID: 7377605764295420041}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11333,7 +11333,7 @@ GameObject:
   - component: {fileID: 1628452717538599412}
   - component: {fileID: 4223083449254468375}
   - component: {fileID: 2393001560805796697}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_87
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11351,7 +11351,7 @@ GameObject:
   - component: {fileID: 6651011585263285593}
   - component: {fileID: 4878062940407931049}
   - component: {fileID: 8652237270806257822}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_86
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11369,7 +11369,7 @@ GameObject:
   - component: {fileID: 7301925222491377428}
   - component: {fileID: 9036943792520261254}
   - component: {fileID: 5561193554508721249}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_50
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11596,7 +11596,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2445865392846052346}
   - component: {fileID: 8579736935998636416}
-  m_Layer: 0
+  - component: {fileID: 8579736935998636419}
+  - component: {fileID: 8579736935998636418}
+  - component: {fileID: 8579736935998636417}
+  m_Layer: 6
   m_Name: NCP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11808,7 +11811,7 @@ GameObject:
   - component: {fileID: 1416690929878814716}
   - component: {fileID: 7000914324917272892}
   - component: {fileID: 7946897806147962874}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_71
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11880,7 +11883,7 @@ GameObject:
   - component: {fileID: 2816902295198144031}
   - component: {fileID: 4022103330536415995}
   - component: {fileID: 5797256444128746054}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_123
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12034,7 +12037,7 @@ GameObject:
   - component: {fileID: 5915309042298794232}
   - component: {fileID: 6785681956405879366}
   - component: {fileID: 8067837113328414488}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_131
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12075,7 +12078,7 @@ GameObject:
   - component: {fileID: 2313416418832606900}
   - component: {fileID: 8422609829253352929}
   - component: {fileID: 7554804334370638221}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_162
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12266,7 +12269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 44102654000032351}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12300,7 +12303,7 @@ GameObject:
   - component: {fileID: 6886259380498223326}
   - component: {fileID: 6906116972987912082}
   - component: {fileID: 8998301628592528516}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12451,7 +12454,7 @@ GameObject:
   - component: {fileID: 6033146581603661997}
   - component: {fileID: 454063423525756901}
   - component: {fileID: 8171490725930023065}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12469,7 +12472,7 @@ GameObject:
   - component: {fileID: 5173477042569470033}
   - component: {fileID: 5263485562788214538}
   - component: {fileID: 7779453044684576668}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_92
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12487,7 +12490,7 @@ GameObject:
   - component: {fileID: 6224560266335289395}
   - component: {fileID: 4857410279311039168}
   - component: {fileID: 9067926025561352870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_76
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12505,7 +12508,7 @@ GameObject:
   - component: {fileID: 5693021164097446462}
   - component: {fileID: 6939104158734207953}
   - component: {fileID: 6797156104515320286}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_127
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12572,7 +12575,7 @@ GameObject:
   - component: {fileID: 4200396150269690284}
   - component: {fileID: 849439565918777634}
   - component: {fileID: 2158358963506985883}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_167
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12616,7 +12619,7 @@ GameObject:
   - component: {fileID: 8488441220228679280}
   - component: {fileID: 1393094702906616289}
   - component: {fileID: 1891491455744602187}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12691,7 +12694,7 @@ GameObject:
   - component: {fileID: 5797549738026122296}
   - component: {fileID: 6540243526383188507}
   - component: {fileID: 2012185069128072424}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_145
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12709,7 +12712,7 @@ GameObject:
   - component: {fileID: 1572689971622951663}
   - component: {fileID: 3014793608532942162}
   - component: {fileID: 1077857167956497540}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_chest_C_boards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12790,7 +12793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4835669135037069060}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12806,7 +12809,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7892951358364477028}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12935,7 +12938,7 @@ GameObject:
   - component: {fileID: 1374637923192438141}
   - component: {fileID: 8847006146734866224}
   - component: {fileID: 1959799585914270254}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13089,7 +13092,7 @@ GameObject:
   - component: {fileID: 6182253400568531891}
   - component: {fileID: 1473598911947518891}
   - component: {fileID: 4264951578725359377}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_chest_C_top_B_boards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13215,7 +13218,7 @@ GameObject:
   - component: {fileID: 9164609894865825956}
   - component: {fileID: 7741680489867883750}
   - component: {fileID: 3519435933879012920}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_110
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13329,7 +13332,7 @@ GameObject:
   - component: {fileID: 3633112244212701517}
   - component: {fileID: 1462016003963141158}
   - component: {fileID: 8639445848291872097}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13411,7 +13414,7 @@ GameObject:
   - component: {fileID: 5853559753758887441}
   - component: {fileID: 6991550782438639018}
   - component: {fileID: 2561507562204474334}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_148
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13429,7 +13432,7 @@ GameObject:
   - component: {fileID: 224882377971849613}
   - component: {fileID: 1216656838919975180}
   - component: {fileID: 1945966441036827844}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13493,7 +13496,7 @@ GameObject:
   - component: {fileID: 7161464599171393848}
   - component: {fileID: 1492171239231439493}
   - component: {fileID: 2268030208776883216}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_59
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13517,7 +13520,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1329069264582402286}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13566,7 +13569,7 @@ GameObject:
   - component: {fileID: 4909944312834168019}
   - component: {fileID: 8516824070656762226}
   - component: {fileID: 8303685528625968331}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_140
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13583,7 +13586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3484879845989502017}
   - component: {fileID: 2161771298082862228}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_chest_C_top_B___
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13687,7 +13690,7 @@ GameObject:
   - component: {fileID: 151574950277905494}
   - component: {fileID: 2295917487637389034}
   - component: {fileID: 7750614191066680079}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_68
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13705,7 +13708,7 @@ GameObject:
   - component: {fileID: 2394662427123960660}
   - component: {fileID: 6973057187812439500}
   - component: {fileID: 4830062560415256442}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_105
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13723,7 +13726,7 @@ GameObject:
   - component: {fileID: 8733231534797723130}
   - component: {fileID: 8783838620718959040}
   - component: {fileID: 6548472972237422033}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13884,7 +13887,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 81406779069975660}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandRing3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14103,7 +14106,7 @@ GameObject:
   - component: {fileID: 2947592276690839545}
   - component: {fileID: 2826700016608042414}
   - component: {fileID: 2273340297675270381}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14152,7 +14155,7 @@ GameObject:
   - component: {fileID: 6089198948530237283}
   - component: {fileID: 2913597631998581778}
   - component: {fileID: 5108015599826291108}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_67
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14176,7 +14179,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2405098683459286447}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14313,7 +14316,7 @@ GameObject:
   - component: {fileID: 4793241059811993555}
   - component: {fileID: 5446714492891887053}
   - component: {fileID: 7093044915487157433}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_143
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14378,7 +14381,7 @@ GameObject:
   - component: {fileID: 5289723426123642446}
   - component: {fileID: 5316281824788224018}
   - component: {fileID: 7924567121941895531}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_144
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14411,7 +14414,7 @@ GameObject:
   - component: {fileID: 6661834461262868714}
   - component: {fileID: 5219677579286528695}
   - component: {fileID: 7764563597469862734}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14493,7 +14496,7 @@ GameObject:
   - component: {fileID: 1598871031304916185}
   - component: {fileID: 3661375205959227079}
   - component: {fileID: 629611405572628346}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_126
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14645,7 +14648,7 @@ GameObject:
   - component: {fileID: 2163437761894511909}
   - component: {fileID: 2568735289745227308}
   - component: {fileID: 1821667204647252641}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_108
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14745,7 +14748,7 @@ GameObject:
   - component: {fileID: 4747439987567982034}
   - component: {fileID: 8182828155605034529}
   - component: {fileID: 6266327494839547668}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14778,7 +14781,7 @@ GameObject:
   - component: {fileID: 7786363192878461215}
   - component: {fileID: 5401918402875126728}
   - component: {fileID: 3219891911308712040}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14848,7 +14851,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 829635201621263174}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14866,7 +14869,7 @@ GameObject:
   - component: {fileID: 6682695379813604101}
   - component: {fileID: 8464669570658553564}
   - component: {fileID: 901897477524785044}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_156
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14962,7 +14965,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9122073327218922519}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15077,7 +15080,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7473140646640967592}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15111,7 +15114,7 @@ GameObject:
   - component: {fileID: 8471173752337621562}
   - component: {fileID: 7422792472641726681}
   - component: {fileID: 2357274799583362179}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_129
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15129,7 +15132,7 @@ GameObject:
   - component: {fileID: 6866513082841497150}
   - component: {fileID: 5310139834684128089}
   - component: {fileID: 7348623036061647913}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15145,7 +15148,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4481245767783444363}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15161,7 +15164,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7229948806570631585}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15179,7 +15182,7 @@ GameObject:
   - component: {fileID: 3305269862726278048}
   - component: {fileID: 3357683391340252839}
   - component: {fileID: 6108801470904376048}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15274,7 +15277,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5681150298086352378}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15353,7 +15356,7 @@ GameObject:
   - component: {fileID: 355440136265258933}
   - component: {fileID: 8082402722036275782}
   - component: {fileID: 6927100583835371921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15578,7 +15581,7 @@ GameObject:
   - component: {fileID: 403305715185147286}
   - component: {fileID: 7667176431917118994}
   - component: {fileID: 8182369213064025354}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coins_duned_based
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15604,7 +15607,7 @@ GameObject:
   - component: {fileID: 4231341496843763474}
   - component: {fileID: 7321827243876112613}
   - component: {fileID: 528101254534924411}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_128
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15671,7 +15674,7 @@ GameObject:
   - component: {fileID: 7006139097611943762}
   - component: {fileID: 2561385145972191133}
   - component: {fileID: 4143899524711533948}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_81
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15834,7 +15837,7 @@ GameObject:
   - component: {fileID: 8069769125079407837}
   - component: {fileID: 2682222472618418374}
   - component: {fileID: 2903989259329617260}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_103
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16293,7 +16296,7 @@ GameObject:
   - component: {fileID: 634833691947974583}
   - component: {fileID: 1915407674028103106}
   - component: {fileID: 6351153980105357492}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_114
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16417,7 +16420,7 @@ GameObject:
   - component: {fileID: 2054827376251844754}
   - component: {fileID: 1658430083275169358}
   - component: {fileID: 8021392653266374088}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_chest_C_top_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16671,7 +16674,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6308651081544949790}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_chest_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16695,7 +16698,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2360817965019111559}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16912,7 +16915,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7116040055490369447}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17189,7 +17192,7 @@ GameObject:
   - component: {fileID: 7917611853544861893}
   - component: {fileID: 6390494773073567725}
   - component: {fileID: 4958786325037937670}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_122
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17226,7 +17229,7 @@ GameObject:
   - component: {fileID: 4315436982157660476}
   - component: {fileID: 3228428707484225553}
   - component: {fileID: 6995249377183761411}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_106
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17405,7 +17408,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2710202260790210395}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17438,7 +17441,7 @@ GameObject:
   - component: {fileID: 3160176090064293990}
   - component: {fileID: 5366716609765027534}
   - component: {fileID: 980024312738992153}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_88
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17456,7 +17459,7 @@ GameObject:
   - component: {fileID: 9179866890798183598}
   - component: {fileID: 3103330223595269125}
   - component: {fileID: 5662532290650160389}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_141
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17523,7 +17526,7 @@ GameObject:
   - component: {fileID: 3014881108978897682}
   - component: {fileID: 4455615952027742882}
   - component: {fileID: 7407885905518784616}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_168
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17557,7 +17560,7 @@ GameObject:
   - component: {fileID: 5697088765297638139}
   - component: {fileID: 5891916787822485334}
   - component: {fileID: 2434834470482978024}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_72
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17613,7 +17616,7 @@ GameObject:
   - component: {fileID: 1486763521888702873}
   - component: {fileID: 4534213763924432833}
   - component: {fileID: 7784490658263226493}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_113
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17646,7 +17649,7 @@ GameObject:
   - component: {fileID: 6500165101266027458}
   - component: {fileID: 3479184000425612782}
   - component: {fileID: 6534505886567371899}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_78
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17680,7 +17683,7 @@ GameObject:
   - component: {fileID: 7300108959248874043}
   - component: {fileID: 8878303788238953777}
   - component: {fileID: 3318336021037601355}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_118
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17713,7 +17716,7 @@ GameObject:
   - component: {fileID: 3946040230249127074}
   - component: {fileID: 6428980613659706256}
   - component: {fileID: 6320531388201346400}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_112
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17793,7 +17796,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7665980688624823159}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandMiddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17811,7 +17814,7 @@ GameObject:
   - component: {fileID: 2797865511437502402}
   - component: {fileID: 6492680482030449828}
   - component: {fileID: 9168403115854547486}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_89
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17829,7 +17832,7 @@ GameObject:
   - component: {fileID: 6153604913970032070}
   - component: {fileID: 4102156666490562485}
   - component: {fileID: 3460024327590029133}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_102
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17862,7 +17865,7 @@ GameObject:
   - component: {fileID: 3050072064404422178}
   - component: {fileID: 32959870041340558}
   - component: {fileID: 6005373836906387487}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_166
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17880,7 +17883,7 @@ GameObject:
   - component: {fileID: 4668672581200293868}
   - component: {fileID: 8902005629889454805}
   - component: {fileID: 158569572841425507}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_142
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17960,7 +17963,7 @@ GameObject:
   - component: {fileID: 6335838256768922952}
   - component: {fileID: 8700830973295601526}
   - component: {fileID: 5323687295186089377}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17986,7 +17989,7 @@ GameObject:
   - component: {fileID: 4695715944652928558}
   - component: {fileID: 1717665352128958872}
   - component: {fileID: 8936829901949582273}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_137
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18130,7 +18133,7 @@ GameObject:
   - component: {fileID: 1992529165343130845}
   - component: {fileID: 9163501509737306901}
   - component: {fileID: 1931213185120045380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_164
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18193,7 +18196,7 @@ GameObject:
   - component: {fileID: 8058746914700368720}
   - component: {fileID: 7321218360097733698}
   - component: {fileID: 3098645811862178734}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18354,7 +18357,7 @@ GameObject:
   - component: {fileID: 244301749732404706}
   - component: {fileID: 4448460201233009508}
   - component: {fileID: 2835038271594046844}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_154
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18434,7 +18437,7 @@ GameObject:
   - component: {fileID: 900972388001687037}
   - component: {fileID: 5532397188150514776}
   - component: {fileID: 7297948966081139889}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18539,7 +18542,7 @@ GameObject:
   - component: {fileID: 7436548569017008101}
   - component: {fileID: 8553890426733078643}
   - component: {fileID: 6227197834170391135}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_138
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18573,7 +18576,7 @@ GameObject:
   - component: {fileID: 8135652897416588565}
   - component: {fileID: 5027917451513771923}
   - component: {fileID: 154308905520436060}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_84
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18599,7 +18602,7 @@ GameObject:
   - component: {fileID: 1517378108783477425}
   - component: {fileID: 1438643242055619086}
   - component: {fileID: 125051216830531613}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18664,7 +18667,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3582904999522654351}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18806,7 +18809,7 @@ GameObject:
   - component: {fileID: 3890977117700580727}
   - component: {fileID: 1174774927913998736}
   - component: {fileID: 1801016568343394026}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18873,7 +18876,7 @@ GameObject:
   - component: {fileID: 6837216915054050289}
   - component: {fileID: 4244813052870404209}
   - component: {fileID: 8440941570105506550}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19059,7 +19062,7 @@ GameObject:
   - component: {fileID: 3212287574409324688}
   - component: {fileID: 7894372867363556494}
   - component: {fileID: 482604217885573941}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19093,7 +19096,7 @@ GameObject:
   - component: {fileID: 3228486416469873984}
   - component: {fileID: 1195488839937542671}
   - component: {fileID: 3580479899389924564}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_160
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19159,7 +19162,7 @@ GameObject:
   - component: {fileID: 5646952540078832948}
   - component: {fileID: 8330352635442116987}
   - component: {fileID: 6784716557644909422}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19459,7 +19462,7 @@ GameObject:
   - component: {fileID: 8732315548141439108}
   - component: {fileID: 4394538533860054130}
   - component: {fileID: 9214730976370024232}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_66
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19538,7 +19541,7 @@ GameObject:
   - component: {fileID: 5042686436821306148}
   - component: {fileID: 9091089325815458018}
   - component: {fileID: 5427290349929288906}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_chest_C_top_A_boards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19569,7 +19572,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9159552921062517187}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandMiddle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19602,7 +19605,7 @@ GameObject:
   - component: {fileID: 4167451207871140501}
   - component: {fileID: 2465451982748055697}
   - component: {fileID: 166879866358310623}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19635,7 +19638,7 @@ GameObject:
   - component: {fileID: 7625738418170925698}
   - component: {fileID: 3533629189157728881}
   - component: {fileID: 3081601940144534487}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_80
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19676,7 +19679,7 @@ GameObject:
   - component: {fileID: 8903390541740248801}
   - component: {fileID: 2466689438028163283}
   - component: {fileID: 7695921231429140930}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19827,7 +19830,7 @@ GameObject:
   - component: {fileID: 4822533486358978128}
   - component: {fileID: 6815707118476560243}
   - component: {fileID: 6474949394461813491}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_79
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19894,7 +19897,7 @@ GameObject:
   - component: {fileID: 5280397145885687045}
   - component: {fileID: 4397382529346378013}
   - component: {fileID: 8682020461437387194}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_77
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19912,7 +19915,7 @@ GameObject:
   - component: {fileID: 5724700133278643202}
   - component: {fileID: 7076953491155905296}
   - component: {fileID: 9159397031044416081}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_158
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20001,7 +20004,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1950739817066011555}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20117,7 +20120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6466134950456410056}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandRing2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20235,7 +20238,7 @@ GameObject:
   - component: {fileID: 6577654976242463147}
   - component: {fileID: 2036017293557518361}
   - component: {fileID: 9148662338042296131}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_119
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20268,7 +20271,7 @@ GameObject:
   - component: {fileID: 678094196645909091}
   - component: {fileID: 6216721644321566060}
   - component: {fileID: 2438646562043043527}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_120
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20359,7 +20362,7 @@ GameObject:
   - component: {fileID: 462885721092425821}
   - component: {fileID: 772316919484423273}
   - component: {fileID: 8132370287591059572}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20458,7 +20461,7 @@ GameObject:
   - component: {fileID: 1284085388247889067}
   - component: {fileID: 7663302286628455731}
   - component: {fileID: 6385988715225428333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20666,7 +20669,7 @@ GameObject:
   - component: {fileID: 3124727097110707887}
   - component: {fileID: 6251709983734158795}
   - component: {fileID: 7207834786665447205}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20705,7 +20708,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5329212328306817848}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20805,7 +20808,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4694634141348847347}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandRing4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20868,7 +20871,7 @@ GameObject:
   - component: {fileID: 6065084696437115645}
   - component: {fileID: 5999733193494700325}
   - component: {fileID: 3831001244177353169}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_51
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20916,7 +20919,7 @@ GameObject:
   - component: {fileID: 7784467739186170509}
   - component: {fileID: 5224210531341462044}
   - component: {fileID: 4877590898758498653}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_60
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20932,7 +20935,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3597430261977903825}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21023,7 +21026,7 @@ GameObject:
   - component: {fileID: 818096445383748409}
   - component: {fileID: 1609643528643751388}
   - component: {fileID: 5559418982718051003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_135
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21071,7 +21074,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2850562311860105729}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21097,7 +21100,7 @@ GameObject:
   - component: {fileID: 7524958620225297632}
   - component: {fileID: 3210761190880930763}
   - component: {fileID: 6078083838999901518}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_99
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21211,7 +21214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4202675689847755475}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21453,7 +21456,7 @@ GameObject:
   - component: {fileID: 4796587781911908969}
   - component: {fileID: 3778925878677166314}
   - component: {fileID: 5627617333827518437}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21543,7 +21546,7 @@ GameObject:
   - component: {fileID: 6553694115935609126}
   - component: {fileID: 7621494842634855027}
   - component: {fileID: 2927393781324226458}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_149
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21647,7 +21650,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 186422802048912458}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21665,7 +21668,7 @@ GameObject:
   - component: {fileID: 2912831222305476288}
   - component: {fileID: 5877559932775738686}
   - component: {fileID: 4131730544256548463}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_161
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21730,7 +21733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 673511626764912551}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandMiddle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21828,7 +21831,7 @@ GameObject:
   - component: {fileID: 3380621445221281401}
   - component: {fileID: 5318523865920961193}
   - component: {fileID: 4320662285655081920}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_163
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21875,13 +21878,70 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5543526080543426323}
-  m_Layer: 0
+  - component: {fileID: 7535260256997341144}
+  - component: {fileID: 7535260256997341143}
+  - component: {fileID: 7535260256997341142}
+  m_Layer: 6
   m_Name: Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7535260256997341142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7535260256997341141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a780a946cf7994b98e2a6971104bb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Chest
+--- !u!65 &7535260256997341143
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7535260256997341141}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.8071468, y: 2.3892174, z: 3.4257123}
+  m_Center: {x: 1.0229685, y: 0.85000324, z: -1.9767506}
+--- !u!65 &7535260256997341144
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7535260256997341141}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.75456864, y: 0.85722375, z: 1.3317496}
+  m_Center: {x: 1.1723295, y: 0.29433322, z: -2.050191}
 --- !u!4 &7542431566264690146
 Transform:
   m_ObjectHideFlags: 0
@@ -21958,7 +22018,7 @@ GameObject:
   - component: {fileID: 2060696640733055677}
   - component: {fileID: 219417988353111577}
   - component: {fileID: 1576375497724224718}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_117
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22063,7 +22123,7 @@ GameObject:
   - component: {fileID: 3847268820224238647}
   - component: {fileID: 761599223692014968}
   - component: {fileID: 8498553869204719058}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22089,7 +22149,7 @@ GameObject:
   - component: {fileID: 2613378384024230724}
   - component: {fileID: 7732187680942791239}
   - component: {fileID: 2748776470538151552}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22139,7 +22199,7 @@ GameObject:
   - component: {fileID: 1930532193117769309}
   - component: {fileID: 6424622932189607692}
   - component: {fileID: 3347296872246356784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22206,7 +22266,7 @@ GameObject:
   - component: {fileID: 6567328866358791550}
   - component: {fileID: 1029998291227057912}
   - component: {fileID: 5372523755360034612}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22305,7 +22365,7 @@ GameObject:
   - component: {fileID: 3369655088598490659}
   - component: {fileID: 4839100014385270547}
   - component: {fileID: 7720972999259189590}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22614,7 +22674,7 @@ GameObject:
   - component: {fileID: 4785835782996438751}
   - component: {fileID: 5147959543519678996}
   - component: {fileID: 6808993218064795941}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_chest_C_top_A_frames
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22664,7 +22724,7 @@ GameObject:
   - component: {fileID: 6707455199235782514}
   - component: {fileID: 766634341726651668}
   - component: {fileID: 1607703000731320106}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22680,7 +22740,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8306563923872707913}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandMiddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22740,7 +22800,7 @@ GameObject:
   - component: {fileID: 2369218316978937371}
   - component: {fileID: 6870107798917323765}
   - component: {fileID: 634098670150925725}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22837,7 +22897,7 @@ GameObject:
   - component: {fileID: 5498637971583021797}
   - component: {fileID: 7404519315423523785}
   - component: {fileID: 4992293795341582724}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_111
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22855,7 +22915,7 @@ GameObject:
   - component: {fileID: 6730172267299945314}
   - component: {fileID: 7666409843445512311}
   - component: {fileID: 3019996728571064321}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_155
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22873,7 +22933,7 @@ GameObject:
   - component: {fileID: 8966947604316777896}
   - component: {fileID: 7758287678812286695}
   - component: {fileID: 6371636480491397722}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_115
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22946,7 +23006,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4097764145203000025}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22970,7 +23030,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4292258377656745051}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHandRing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23053,7 +23113,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4657740734673886783}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23238,7 +23298,7 @@ GameObject:
   - component: {fileID: 4602168397678749340}
   - component: {fileID: 8000941739714106843}
   - component: {fileID: 3705679648599051372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23256,7 +23316,7 @@ GameObject:
   - component: {fileID: 353280589009916888}
   - component: {fileID: 5580184260876900578}
   - component: {fileID: 2566493179400212086}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_100
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23282,7 +23342,7 @@ GameObject:
   - component: {fileID: 47528444978569414}
   - component: {fileID: 4651308594957736937}
   - component: {fileID: 8257569850147997489}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_69
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23298,7 +23358,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5586813146300953351}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23413,7 +23473,7 @@ GameObject:
   - component: {fileID: 4135820599486335201}
   - component: {fileID: 4832024885461959117}
   - component: {fileID: 309398520794693138}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_139
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23902,7 +23962,7 @@ GameObject:
   - component: {fileID: 2082897298089738503}
   - component: {fileID: 8429267414644178300}
   - component: {fileID: 662830549277031622}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_56
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24042,7 +24102,7 @@ GameObject:
   - component: {fileID: 6979642658242750741}
   - component: {fileID: 3088857814452170332}
   - component: {fileID: 5223907059602466143}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24060,7 +24120,7 @@ GameObject:
   - component: {fileID: 6160046135775640901}
   - component: {fileID: 6673493715839513733}
   - component: {fileID: 8977965393895575722}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_65
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24297,7 +24357,7 @@ GameObject:
   - component: {fileID: 4256979686369968483}
   - component: {fileID: 2850314975307388955}
   - component: {fileID: 8090865099997412919}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24406,6 +24466,60 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8579736935998636417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3078954925933379904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1eef9dff6ca014bae4c1c410a23f22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPC
+--- !u!65 &8579736935998636418
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3078954925933379904}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.5, y: 2, z: 2.5}
+  m_Center: {x: 0, y: 0.8, z: 0}
+--- !u!65 &8579736935998636419
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3078954925933379904}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.71875477, y: 1.6119401, z: 0.47828007}
+  m_Center: {x: 0.002960682, y: 0.80330837, z: 0.06144476}
 --- !u!4 &8583331961088880829
 Transform:
   m_ObjectHideFlags: 0
@@ -24448,7 +24562,7 @@ GameObject:
   - component: {fileID: 3725945737546726795}
   - component: {fileID: 5031345885067231677}
   - component: {fileID: 7426929770855393107}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_152
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24482,7 +24596,7 @@ GameObject:
   - component: {fileID: 8860588182504228365}
   - component: {fileID: 3551894672356550272}
   - component: {fileID: 5308817337333547329}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_165
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24549,7 +24663,7 @@ GameObject:
   - component: {fileID: 5959244629464419130}
   - component: {fileID: 5395187444170657006}
   - component: {fileID: 3633470629222856854}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_91
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24697,7 +24811,7 @@ GameObject:
   - component: {fileID: 6826447931772664290}
   - component: {fileID: 2479856935897814983}
   - component: {fileID: 2036329944991057196}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24745,7 +24859,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8894020990464719594}
   - component: {fileID: 8169206255057059671}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ch19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24778,7 +24892,7 @@ GameObject:
   - component: {fileID: 1487198273185785195}
   - component: {fileID: 2568293405087532874}
   - component: {fileID: 7480423190146687951}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_153
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24796,7 +24910,7 @@ GameObject:
   - component: {fileID: 3294830622898104809}
   - component: {fileID: 537541104354804462}
   - component: {fileID: 5589044427335027225}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_94
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24920,7 +25034,7 @@ GameObject:
   - component: {fileID: 1819223760482868687}
   - component: {fileID: 8692929626303929650}
   - component: {fileID: 8806114922567278154}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_159
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24938,7 +25052,7 @@ GameObject:
   - component: {fileID: 498274860196067240}
   - component: {fileID: 4952569000234833505}
   - component: {fileID: 5194487415992504916}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_104
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24956,7 +25070,7 @@ GameObject:
   - component: {fileID: 122334294301954775}
   - component: {fileID: 5492429674790121899}
   - component: {fileID: 9172000954673186014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_70
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25199,7 +25313,7 @@ GameObject:
   - component: {fileID: 267265023614641481}
   - component: {fileID: 456399151874163416}
   - component: {fileID: 4985711554033747698}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_chest_C_top_A_handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25334,7 +25448,7 @@ GameObject:
   - component: {fileID: 2635606701642461977}
   - component: {fileID: 1291803002777025383}
   - component: {fileID: 2279058032753239447}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_116
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25539,7 +25653,7 @@ GameObject:
   - component: {fileID: 3355084579354619994}
   - component: {fileID: 5881677438183379969}
   - component: {fileID: 6529827382705530574}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25557,7 +25671,7 @@ GameObject:
   - component: {fileID: 7071201639454599697}
   - component: {fileID: 7152114370808664173}
   - component: {fileID: 987704610527397512}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25739,7 +25853,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4423259433251939603}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mixamorig1:RightHandMiddle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25820,8 +25934,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1963519017035947373}
   - component: {fileID: 7141218252297970707}
-  m_Layer: 0
-  m_Name: treasure_chest_C_top_A___
+  m_Layer: 6
+  m_Name: Kapak
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25838,7 +25952,7 @@ GameObject:
   - component: {fileID: 9134530728588517786}
   - component: {fileID: 3624230327836208656}
   - component: {fileID: 6752735001394674774}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_coin_duned_24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26056,7 +26170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8427795068496146983}
   - component: {fileID: 4412589464976071907}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: treasure_chest_D_open
   m_TagString: Untagged
   m_Icon: {fileID: 0}
