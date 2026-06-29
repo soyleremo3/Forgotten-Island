@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3f95a1c484097e9409283021fc36ccce
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311375
+  packageName: Polyquest Treasures
+  packageVersion: 2.0
+  assetPath: Assets/POLYBOX/polyquest_treasures/Models/Treasure/Colliders/Materials/m_colliders.mat
+  uploadId: 919280
