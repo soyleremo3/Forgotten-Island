@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d0f91b219b56e124b9367d2033e94aeb
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311375
+  packageName: Polyquest Treasures
+  packageVersion: 2.0
+  assetPath: Assets/POLYBOX/polyquest_treasures/Shaders/dummy/Diffuse Zwrite_2.0.shader
+  uploadId: 919280

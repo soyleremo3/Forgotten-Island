@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2d37cc4f3a7539c4d81272cc7718a763
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311375
+  packageName: Polyquest Treasures
+  packageVersion: 2.0
+  assetPath: Assets/POLYBOX/polyquest_treasures/Shaders/matte_shadow.shader
+  uploadId: 919280
