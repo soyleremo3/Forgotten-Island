@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 062cb7bb73582a942a8988db7d2c62fc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311375
+  packageName: Polyquest Treasures
+  packageVersion: 2.0
+  assetPath: Assets/POLYBOX/polyquest_treasures/Materials/m_treasure_chest_B_lock.mat
+  uploadId: 919280

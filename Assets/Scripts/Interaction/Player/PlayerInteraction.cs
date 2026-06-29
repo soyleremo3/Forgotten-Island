@@ -25,6 +25,8 @@ public class PlayerInteraction : MonoBehaviour
             if (hit.collider.TryGetComponent<IInteractable>(out IInteractable interactable))
             {
                 currentInteractable = interactable;
+
+                Debug.Log(currentInteractable.GetInteractionPrompt());
             }
             else
             {
@@ -40,5 +42,10 @@ public class PlayerInteraction : MonoBehaviour
         {
             currentInteractable.Interact();
         }
+
+        /*else if (currentInteractable != null)
+        {
+            currentInteractable.GetInteractionPrompt();
+        }*/
     }
 }
