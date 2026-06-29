@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 479e36e1842885a4c984742ec8ad8076
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 311375
+  packageName: Polyquest Treasures
+  packageVersion: 2.0
+  assetPath: Assets/POLYBOX/polyquest_treasures/Materials/m_treasure_chest_frames.mat
+  uploadId: 919280
