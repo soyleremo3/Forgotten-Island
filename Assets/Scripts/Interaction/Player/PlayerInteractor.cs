@@ -1,6 +1,7 @@
+using SandBoxGame.Interaction;
 using UnityEngine;
 
-public class PlayerInteraction : MonoBehaviour
+public class PlayerInteractor : MonoBehaviour
 {
     [Header("Settings")]
     [SerializeField] private float interactionDistance = 20f;
@@ -45,7 +46,7 @@ public class PlayerInteraction : MonoBehaviour
 
         if (currentInteractable != null && Input.GetKeyDown(KeyCode.E))
         {
-            currentInteractable.Interact();
+            currentInteractable.Interact(gameObject);
         }
     }
 }

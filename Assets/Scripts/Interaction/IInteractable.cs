@@ -1,10 +1,13 @@
-//using UnityEngine;
+using UnityEngine;
 
-public interface IInteractable
+namespace SandBoxGame.Interaction
 {
-    void Interact();
+    public interface IInteractable
+    {
+        void Interact(GameObject interactor);
 
-    string GetInteractionPrompt();
+        string GetInteractionPrompt();
 
-    bool CanInteractable();
+        bool CanInteract {  get; }
+    }
 }

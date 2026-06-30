@@ -6,6 +6,7 @@ public class UIManager : MonoBehaviour
     public static UIManager Instance { get; private set; }
 
     [SerializeField] private TextMeshProUGUI interactionText;
+    [SerializeField] private TextMeshProUGUI dialogueText;
 
     private void Awake()
     {
@@ -27,5 +28,15 @@ public class UIManager : MonoBehaviour
     public void ClearInteractionText()
     {
         interactionText.text = string.Empty;
+    }
+
+    public void ShowDialogue(string message)
+    {
+        dialogueText.text = message;
+    }
+
+    public void ClearDialogue()
+    {
+        dialogueText.text = string.Empty;
     }
 }
