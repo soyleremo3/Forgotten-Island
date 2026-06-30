@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerInteraction : MonoBehaviour
 {
     [Header("Settings")]
-    [SerializeField] private float interactionDistance = 3f;
+    [SerializeField] private float interactionDistance = 20f;
     [SerializeField] private LayerMask interactableLayer;
 
     private Camera mainCamera;
@@ -26,26 +26,26 @@ public class PlayerInteraction : MonoBehaviour
             {
                 currentInteractable = interactable;
 
-                Debug.Log(currentInteractable.GetInteractionPrompt());
+                UIManager.Instance.SetInteractionText(currentInteractable.GetInteractionPrompt());
             }
             else
             {
                 currentInteractable = null;
+                UIManager.Instance.ClearInteractionText();
             }
         }
         else
         {
-            currentInteractable = null;
+            if (currentInteractable != null)
+            {
+                currentInteractable = null;
+                UIManager.Instance.ClearInteractionText();
+            }
         }
 
         if (currentInteractable != null && Input.GetKeyDown(KeyCode.E))
         {
             currentInteractable.Interact();
         }
-
-        /*else if (currentInteractable != null)
-        {
-            currentInteractable.GetInteractionPrompt();
-        }*/
     }
 }
