@@ -1164,7 +1164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b1eef9dff6ca014bae4c1c410a23f22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
-  NPCName: 
+  npcAnimator: {fileID: 0}
+  npcName: Villager
   dialogueText: Hello adventurer, I have a quest for you!
 --- !u!135 &400248000
 SphereCollider:
@@ -1390,7 +1391,7 @@ GameObject:
   - component: {fileID: 532554686}
   - component: {fileID: 532554685}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Interaction Prompt Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2577,7 +2578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c7c00247c481d54e9e7d1546995869b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
-  interactionText: {fileID: 532554685}
+  interactionPromptText: {fileID: 532554685}
   dialogueText: {fileID: 1479868376}
 --- !u!4 &1143950059
 Transform:
@@ -3273,6 +3274,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Chest
   chestAnimator: {fileID: 0}
+  contentType: 0
+  resultMessageDuration: 3
 --- !u!65 &1346577061
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3294,6 +3297,59 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3, y: 1, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1363685969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1363685970}
+  - component: {fileID: 1363685971}
+  m_Layer: 6
+  m_Name: ChestCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1363685970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363685969}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5543526080543426323}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1363685971
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363685969}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.8071468, y: 2.3892174, z: 3.4257123}
+  m_Center: {x: 1.0229685, y: 0.85000324, z: -1.9767506}
 --- !u!1 &1416732338
 GameObject:
   m_ObjectHideFlags: 0
@@ -3438,7 +3494,7 @@ GameObject:
   - component: {fileID: 1479868377}
   - component: {fileID: 1479868376}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Dialogue Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4747,6 +4803,59 @@ Transform:
   - {fileID: 1078760473}
   m_Father: {fileID: 1416732339}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1953034147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1953034148}
+  - component: {fileID: 1953034149}
+  m_Layer: 6
+  m_Name: NCPCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1953034148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953034147}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2445865392846052346}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1953034149
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953034147}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.5, y: 2, z: 2.5}
+  m_Center: {x: 0, y: 0.8, z: 0}
 --- !u!1 &1989077656
 GameObject:
   m_ObjectHideFlags: 0
@@ -10480,6 +10589,7 @@ Transform:
   m_Children:
   - {fileID: 8894020990464719594}
   - {fileID: 7892951358364477028}
+  - {fileID: 1953034148}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &2465451982748055697
@@ -14552,7 +14662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d90ce951dd3f57844bb362377a7efa35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  interactionDistance: 80
+  interactionDistance: 15
   interactableLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -17529,6 +17639,7 @@ Transform:
   m_Children:
   - {fileID: 3065196608931549120}
   - {fileID: 8427795068496146983}
+  - {fileID: 1363685970}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!4 &5547045583235104999
@@ -22407,6 +22518,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Chest
   chestAnimator: {fileID: 9153105473496987849}
+  contentType: 0
+  resultMessageDuration: 3
 --- !u!65 &7535260256997341143
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22424,7 +22537,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 2.8071468, y: 2.3892174, z: 3.4257123}
   m_Center: {x: 1.0229685, y: 0.85000324, z: -1.9767506}
@@ -24985,7 +25098,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b1eef9dff6ca014bae4c1c410a23f22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
-  NPCName: 
+  npcAnimator: {fileID: 8579736935998636416}
+  npcName: Villager
   dialogueText: Hello adventurer, I have a quest for you!
 --- !u!65 &8579736935998636418
 BoxCollider:
@@ -26773,6 +26887,6 @@ SceneRoots:
   - {fileID: 400247998}
   - {fileID: 5543526080543426323}
   - {fileID: 2445865392846052346}
-  - {fileID: 2125551706}
   - {fileID: 1143950059}
+  - {fileID: 2125551706}
   - {fileID: 1172996690}
